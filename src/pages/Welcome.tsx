@@ -9,6 +9,10 @@ export function Welcome() {
         className="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-500 transition"
         href="https://vitejs.dev" target="_blank" rel="noreferrer"
       >Learn Vite</a>
+      <a
+        className="px-4 py-2 rounded bg-green-600 text-white hover:bg-green-500 transition"
+        href="#/films" data-testid="nav-films"
+      >Star Wars Films</a>
     </main>
   );
 }
