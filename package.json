@@ -17,10 +17,13 @@
     "playwright:install": "playwright install --with-deps"
   },
   "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.46.0",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -29,7 +32,6 @@
     "eslint": "^9.7.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.7",
-  "@playwright/test": "^1.46.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.9",
     "typescript": "^5.5.4",
